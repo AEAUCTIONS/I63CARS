@@ -1,0 +1,35 @@
+feature,area,priority,original,clone,notes
+Register with email and phone,onboarding,must,yes,no,
+Identity / licence verification before bidding,onboarding,must,yes,no,needed for UAE compliance
+Deposit sets buying power,payments,must,yes,no,
+Motorcycle search with filters (make model year damage location),search,must,yes,no,add engine cc and bike type
+Sort and save searches,search,should,yes,no,
+Lot detail page with photo gallery,lot page,must,yes,no,
+Lot location and sale date shown,lot page,must,yes,no,
+Seller condition report (exterior interior mechanical),lot page,must,yes,no,
+Paid extended condition report / third-party inspection,lot page,should,yes,no,
+Watchlist,account,must,yes,no,
+Pre-bid (max bid with automatic incremental bids),bidding,must,yes,no,
+Pre-bid cutoff before the live lot,bidding,must,yes,no,
+Live auction room with real-time bids,bidding,must,yes,no,hard part
+Live bid beats equal pre-bid,bidding,must,yes,no,
+Bid increments table,bidding,must,yes,no,
+Reserve / seller approval step,bidding,should,yes,no,
+Buy It Now on selected lots,bidding,must,yes,no,
+Outbid and auction-start notifications,notifications,must,yes,no,
+Fee calculator / total cost estimate,fees,must,yes,no,
+Invoice with fee breakdown,payments,must,yes,no,
+Pay invoice online (cards and local methods),payments,must,yes,no,
+Late payment and storage fees,payments,should,yes,no,
+Pickup instructions / gate pass,fulfilment,should,yes,no,
+Shipping and export quote,fulfilment,should,yes,no,
+My bids: bidding / won / lost,account,must,yes,no,
+Arabic and English with RTL,i18n,must,no,no,our addition
+Seller portal to list lots,sellers,should,yes,no,rescope after buyer MVP
+Mobile app,platform,could,yes,no,
+Proxy bidding by phone or agent,bidding,could,yes,no,
+Vehicle history report,lot page,skip,yes,skip,licensed third-party data
+Copart inventory and seller network,network,skip,yes,skip,not part of the product you can rebuild
+Copart brand assets and copy,brand,skip,yes,skip,must be original
+Partner / lender integrations,integrations,could,yes,no,
+Analytics for sellers,analytics,could,yes,no,
